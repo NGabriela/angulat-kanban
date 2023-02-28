@@ -1,0 +1,27 @@
+:host{
+  width: 100%;
+}
+.kanban_stage_container {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+
+.kanban_stage{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(234, 229, 229);
+  margin: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.kanban_card{
+  background-color: white;
+  border: 0;
+  margin: 0.5rem;
+  height: 40px;
+}
+.add_card_btn, .card_move_back_btn, .card_forward_back_btn, .card_delete_back_btn {
+  display: inline;
+}

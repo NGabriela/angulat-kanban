@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2023-02-28T05:26:33" id="0" hostname="0900e4c5e3c7" tests="14" errors="1" failures="14" time="0.816">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="KanbanCardComponent On click of card, onCardSelected method should call with correct params" time="0.367" classname="unit.KanbanCardComponent">
+    <failure type="">Expected spy onCardSelected to have been called with [ Object({ cardId: 1 }) ] but it was never called.
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-card/kanban-card.component.spec.ts:29:42)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanStageComponent On click of card, onCardselect method should call with correct params" time="0.04" classname="unit.KanbanStageComponent">
+    <failure type="">TypeError: Cannot read property 'click' of null
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-stage/kanban-stage.component.spec.ts:29:48)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent Clicking on any card should display the name in textbox." time="0.036" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at http://localhost:9876/_karma_webpack_/webpack:/projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:93:39
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Object.onInvoke projects/challenge/~/@angular/core/@angular/core.es5.js:3890:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at NgZone.webpackJsonp.../../../core/@angular/core.es5.js.NgZone.run projects/challenge/~/@angular/core/@angular/core.es5.js:3821:43)
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:92:16)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent Once the card selected based on current stage able to move forward" time="0.031" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:120:40)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent Once the card selected based on current stage able to move Backward." time="0.041" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:143:40)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent If the card/task selected from the 1st stage should disable the &quot;Move Backward&quot; button." time="0.031" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at http://localhost:9876/_karma_webpack_/webpack:/projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:163:39
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Object.onInvoke projects/challenge/~/@angular/core/@angular/core.es5.js:3890:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at NgZone.webpackJsonp.../../../core/@angular/core.es5.js.NgZone.run projects/challenge/~/@angular/core/@angular/core.es5.js:3821:43)
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:162:16)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent If the card/task selected from the last stage should disable the &quot;Move Forward&quot; button." time="0.028" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at http://localhost:9876/_karma_webpack_/webpack:/projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:190:52
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Object.onInvoke projects/challenge/~/@angular/core/@angular/core.es5.js:3890:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at NgZone.webpackJsonp.../../../core/@angular/core.es5.js.NgZone.run projects/challenge/~/@angular/core/@angular/core.es5.js:3821:43)
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:189:16)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent After selecting task from 2nd stage and clicking on Move Forward move card to 3rd stage" time="0.05" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:210:40)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent After selecting task from 2nd stage and clicking on Move Backward move card to 1st stage" time="0.037" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:231:40)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent Once the card selected and clicking on  Delete button should remove the card from board." time="0.031" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:250:33)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent &quot;Add card&quot; should add one card in first stage and click on that card should move forward and backward correctly" time="0.028" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:267:39)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent Clicking on &quot;Add card&quot; button without any input should not affect anything." time="0.033" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:300:39)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent Move forward an item till the last state and should disable the move forward button" time="0.022" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:325:40)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <testcase name="KanbanViewComponent Move backward an item till the first state and should disable the move backward button" time="0.041" classname="unit.KanbanViewComponent">
+    <failure type="">TypeError: Cannot read property 'querySelectorAll' of undefined
+    at Object.&lt;anonymous&gt; projects/challenge/src/app/kanban-view/kanban-view.component.spec.ts:341:40)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:388:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke projects/challenge/~/zone.js/dist/proxy.js:128:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke projects/challenge/~/zone.js/dist/zone.js:387:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run projects/challenge/~/zone.js/dist/zone.js:138:1)
+    at runInTestZone projects/challenge/~/zone.js/dist/jasmine-patch.js:139:1)
+    at Object.&lt;anonymous&gt; projects/challenge/~/zone.js/dist/jasmine-patch.js:154:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
